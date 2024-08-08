@@ -2,14 +2,20 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Redirecting...</title>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var currentUrl = window.location.href;
-            var redirectUrl = 'https://bisecthosting.com/TBM25?source=' + encodeURIComponent(currentUrl);
-            window.location.href = redirectUrl;
-        });
+    <script type="text/javascript">
+        // Get the current URL
+        var currentUrl = window.location.href;
+        
+        // Encode the current URL to be used as a parameter
+        var encodedUrl = encodeURIComponent(currentUrl);
+        
+        // Construct the new URL with the referrer parameter
+        var redirectUrl = "https://bisecthosting.com/TBM25?referrer=" + encodedUrl;
+        
+        // Redirect to the new URL
+        window.location.replace(redirectUrl);
     </script>
+    <title>Redirecting...</title>
 </head>
 <body>
 </body>
