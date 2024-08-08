@@ -2,8 +2,14 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; URL='https://bisecthosting.com/TBM25'">
     <title>Redirecting...</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var currentUrl = window.location.href;
+            var redirectUrl = 'https://bisecthosting.com/TBM25?source=' + encodeURIComponent(currentUrl);
+            window.location.href = redirectUrl;
+        });
+    </script>
 </head>
 <body>
 </body>
