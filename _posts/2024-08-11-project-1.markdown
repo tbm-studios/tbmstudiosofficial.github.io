@@ -1,10 +1,10 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2024-08-11
 img: village-nullifier.png
 alt: image-alt
-project-date: April 2014
+project-date: August 2024
 client: Start Bootstrap
 category: Web Development
 description: This project is designed to give players control over village generation in their game world. It allows users to disable specific village styles or all villages entirely, providing a more cohesive and unified environment. The mod integrates seamlessly with popular mods and datapacks, making it ideal for players and modpack developers who want to customize their gameplay experience.
