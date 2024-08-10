@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2025-08-11
-img: village-nullifier.png
+img: villagenullifier.png
 alt: image-alt
 project-date: August 2024
 client: Start Bootstrap
